@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.group-container {
+  display: flex;
+  justify-content: flex-start; /* Mengatur agar dimulai dari kiri */
+  align-items: center;
+  overflow-x: auto; /* Membuat scroll horizontal jika anggotanya lebih banyak */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member {
+  margin: 0 15px; /* Memberikan jarak antar anggota */
+  text-align: center;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Membuat foto menjadi bulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
